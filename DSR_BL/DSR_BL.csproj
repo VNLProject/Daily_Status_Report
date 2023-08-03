@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Member\" />
+    <Folder Include="Project\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DSR_DL\DSR_DL.csproj" />
+    <ProjectReference Include="..\UTILITY\UTILITY.csproj" />
+  </ItemGroup>
+
+</Project>
